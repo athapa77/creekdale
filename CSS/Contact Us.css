@@ -1,0 +1,132 @@
+#contact-background{
+	min-height:50vh;
+	background:url("../Image/contact.jpg");
+	background-position:50% 50%;
+	background-size:cover;
+	font-family:Monotype Corsiva, Avenir Next Regular;
+	font-size:2em;
+	color:white;
+	text-transform:uppercase;
+	text-align:center;
+	line-height:300px;
+}
+.contact-section{
+	width:90%;
+	margin:auto;
+}
+#message{
+	color:#444;
+	text-align:justify;
+	font-size:1.7em;
+	line-height:32px;
+}
+#contact-form{
+	width:60%;
+	float:right;
+	border:1px solid #ccc;
+	box-shadow:0 0 5px 0 rgba(0,0,0,.3);     /*giving a border that kind of looks like3d*/
+	margin-bottom:20px;
+}
+input{
+	display:block;
+	width:100%;
+	height:30px;
+	margin-top:20px;
+	font-size:18px;
+	border:none;
+	border-bottom:1px solid #ccc;
+	padding:4px 0 4px 0;
+	transition: all .3s linear;
+    transition-property: border , background , color , box-shadow , padding;
+}
+input:focus, textarea:focus{
+	border-color:#00377c;
+	outline:0;
+	box-shadow:0 1px 0 0 #00377c;
+}
+textarea{
+	margin-top:20px;
+	width:100%;
+	font-size:18px;
+	border:none;
+	border-bottom:1px solid #ccc;
+	padding:4px 0 4px 0;
+	transition: all .3s linear;
+    transition-property: border , background , color , box-shadow, padding;      
+}
+.button{
+	margin-top:30px;
+	margin-bottom:30px;
+	color:black;
+    line-height: normal;
+    padding: 10px 20px;
+    border: 2px solid black;
+    background-color: white;
+    text-transform: uppercase;      /*formating text to uppercase*/
+	cursor:pointer;
+	background-image: linear-gradient(to left,transparent,transparent 50%,black 50%,black);   /*using linear gradient*/
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+}
+.button:hover{
+	background-position: 0 0;
+	color:#fff;
+}
+#contact-information{
+	width:33%;
+	float:left;
+	padding:15px;
+}
+#contact-information p, pre{
+	font-size:1.2em;
+}
+#getSocial{
+	clear:left;
+	width:270px;
+	height:85px;
+	margin-bottom:50px;
+}
+#getSocial ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+#getSocial ul li{
+	float:left;
+	margin-right:20px;
+}
+[class^="fa"]:hover {
+    color:#000a16;
+}
+[class^="fa"]:focus{
+    color:#000a16;
+}
+[class*="facebook"]{
+  background: white;       /*Selecting all the class elements with facebook as substring*/
+  color: #00337c;
+}
+[class*="twitter"]{
+  background:white;            /*Selecting all the class elements with twitter as substring*/
+  color: #00337c;
+}
+[class*="flickr"]{
+  background:white;          /*Selecting all the class elements with flickr as substring*/
+  color: #00337c;
+}
+[class*="linkedin"]{
+  background:white;
+  color: #00337c;
+}
+[class*="instagram"]{
+  background:white;
+  color: #00337c;
+}
+[class*="skype"]{
+  background:white;
+  color: #00337c;
+}
+[class*="youtube"]{
+  background:white;
+  color: #00337c;
+}

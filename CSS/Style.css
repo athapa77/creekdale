@@ -1,0 +1,129 @@
+body{          /*Selecting a element with html tag*/
+	margin:0px;
+	padding:0px;
+	font-family:Avenir Next Regular, sans-serif, Times New Roman;        /*customizing fonts with fall back fonts*/
+	font-size:14px;
+	line-height:1.42;
+}
+/* css to use header of a navigational*/
+a{
+	text-decoration:none;
+	color:white;
+}
+header{
+	position:fixed;
+	background-color:black;
+	width:100%;
+	min-height:80px;
+}
+.top{   /*Selecting a element with class name*/
+	width:100%;          
+	min-height:80px;
+}
+.navigation{
+	height:40px;
+	width:62%;
+	float:right;
+	margin-top:17px;
+}
+header img{
+	width:10%;
+	height:90%;
+	float:left;
+}
+.logo_hover:hover{
+	opacity:0.6;
+}
+header ul{
+	list-style-type:none;
+}
+header ul li a{
+	text-decoration:none;
+	font-size:15px;             /*pixels used for declaring a size of font*/
+	text-transform:uppercase;
+	float:left;
+	color:white;
+	margin-left:50px;
+}
+header ul li a:hover{
+	border-bottom:3px solid white;
+}
+.active{
+	border-bottom:3px solid white;
+}
+/*css for footer element*/
+#footer{                    /*Selecting a element with id name*/
+	width:100%;
+	height:400px;
+	margin-top:25px;
+	background-color:black;
+	color:white;
+	font-family:Arial;
+	clear:both;
+}
+.footer_navigation{
+	margin-top:30px;
+	float:left;
+	width:300px;
+}
+.footer_navigation ul{
+	list-style-type:none;
+	font-size:19px;
+	line-height:1.3em;         /*Declares a size with percentage--- 1.3em=130%*/
+}
+.footer_navigation ul li ul{
+	margin:0px;
+	padding:0px;
+	color:#a8a8a8;
+	font-size:12px;
+}
+.footer_navigation a{
+	text-decoration:none;
+	color:white;
+}
+.footer_navigation ul li ul a{      /*slecting a element that has ul as parents which has li and it has and also thats parents name with class*/
+	color:#a8a8a8;
+}
+.footer_navigation ul li ul a:hover{
+	color:white;
+}
+.footer_contact_button{
+	height:70px;
+	margin-top:30px;
+	float:left;
+	width:200px;	
+}
+.contact_button{
+	text-decoration:none;
+	color:white;
+	font-family:Proxima Nova Semi-Bold;
+	font-size:17px;
+	padding:9px 12px 9px 15px;
+	border:2px solid white;
+	background-color:black;
+	display:block;
+	margin-left:-15px;
+	margin-top:20px;
+	margin-right:104px;
+	transition:color 1s,background-color 0.5s;
+}
+.contact_button:hover{
+	background-color:white;
+	color:black;
+}
+.footer_navigation_social{
+	margin-top:44px;
+	float:left;
+	width:200px;
+	margin-left:160px;
+}
+.footer_navigation_social a img{
+	margin-left:10px;
+}
+.footer_navigation_social a img:hover{
+	opacity:0.7;
+}
+footer{
+	padding-top:350px;
+	text-align:center;
+}

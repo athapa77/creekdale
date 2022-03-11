@@ -1,0 +1,172 @@
+#slider_container{
+	overflow:hidden;             /*making all the element hidden which are overflowing from its height and width*/
+}
+#slider{
+	width:10000px;
+	min-height:600px;
+	padding:0;
+	margin:0;
+}
+.slides{
+	list-style-type:none;
+	float:left;
+}
+.container{
+	width:1280px;
+	min-height:600px;
+	background-image:url("../Image/everest.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+}
+.container1{
+	width:1280px;
+	min-height:600px;
+	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../Image/mustangHD.jpg"); /*background image slider*/
+	background-size:cover;
+	background-attachment:fixed;
+}
+.container2{
+	width:1280px;
+	min-height:600px;
+	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../Image/pokhara.jpg");  /*background image slider*/
+	background-size:cover;
+	background-attachment:fixed;
+}
+.container3{
+	width:1280px;
+	min-height:600px;
+	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../Image/nagarkot1.jpg");  /*background image slider*/
+	background-size:cover;
+	background-attachment:fixed;
+}
+.container4{
+	width:1280px;
+	min-height:600px;
+	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../Image/chitwan2.jpg");  /*background image slider*/
+	background-size:cover;
+	background-attachment:fixed;
+}
+.container5{
+	width:1280px;
+	min-height:600px;
+	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../Image/kathmandu1.jpg");  /*background image slider*/
+	background-size:cover;
+	background-attachment:fixed;
+}
+.slider_message{
+	padding-top:140px;
+	font-family:Proxima Nova Light;
+	font-style:italic;
+	margin-right:700px;   /*it slides with the background image*/
+	font-size:18px;
+	color:white;
+	line-height:17px;
+	text-align:center;
+}
+.booking{
+	width:41%;
+	height:157px;
+	text-align:right;
+	margin-top:155px;
+	margin-left:650px;
+}
+.slide_headline{
+	font-size:36px;
+	font-family:'Proxima Nova Light';
+	text-transform:uppercase;
+	color:white;
+	line-height:0px;
+}
+.slide_headline_message{
+	font-size:20px;
+	font-family:'Proxima Nova Regular';
+	color:white;
+	line-height:22px;
+}
+.button{
+	text-decoration:none;
+	color:white;
+	font-family:Proxima Nova Semi-Bold;
+	font-size:17px;
+	padding:9px 12px 9px 12px;
+	border:2px solid white;
+	background-color:black;
+	transition:color 1s,background-color 0.5s;
+}
+.button:hover{
+	background-color:white;
+	color:black;
+}
+.blue_section{
+	background-color:#00002f;
+	color:white;
+	margin-top:30px;
+}
+.handcrafted_travel h2{
+	font-family:Roboto Slab;
+	text-align:center;
+	dipslay:block;
+	padding:20px 30px 0px 10px;
+	font-size:36px;
+	font-weight: 400;
+}
+.handcrafted_button{
+	height:45px;
+	width:200px;
+	float:left;
+	margin-left:33px;
+	margin-top:10px;
+}
+.handcrafted_button a{
+	text-decoration:none;
+	text-transform:uppercase;
+	color:black;
+	font-size:17px;
+	padding:9px 12px;
+	background-color:white;
+	border-radius:5px;        /*making a border radius round*/
+	transition:color 1s,background-color 0.5s;
+}
+.handcrafted_button a:hover{
+	color:white;
+	background-color:black;
+}
+#blue_contact{
+	width:93%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#blue_section_contact_button{
+	padding:9px 30px;
+	border-radius:5px;
+	margin-top:20px;
+	color:black;
+	background-color:white;
+	font-size:18px;
+	text-transform:uppercase;
+	transition:color 1s,background-color 0.5s;
+}
+#blue_section_contact_button:hover{
+	background-color:black;
+	color:white;
+}
+.line{
+	width:100%;
+	height:300px;
+	margin-top:30px;
+}
+.row{
+	width:28%;
+	height:290px;
+	margin-left:50px;
+	float:left;
+	box-shadow:3px 3px 5px 2px #ccc;
+}
+.line h2{
+	font-size:36px;
+	font-family:Proxima Nova Light;
+	text-transform:uppercase;
+	color:white;
+	text-align:center;
+	padding-top:70px;
+}
